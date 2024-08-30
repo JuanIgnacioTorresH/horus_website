@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple View Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Main View -->
+        <div id="main-view">
+            <header class="header">
+                <div class="logo">
+                  <img src="./assets/Logo-Photoroom.png" alt="Logo Horus">
+                  <span>HORUS</span>
+                </div>
+                <div class="btn"><button id="to-details">CONTACTANOS</button></div>
+            </header>
+            <!--[if mso]>Abajo de esta comentario agrega el html del Home<![endif]-->
+          
+          
+            <section class="hero">
+              <div class="container">
+                <div class="hero-content">
+                  <h1>La innovación de la agroindustria</h1>
+                  <hr>
+                  <p>Te contamos un poco sobre nosotros más abajo</p>
+                </div>  
+              </div>
+            </section>
+          
+            <section class="objective-section">
+                <hr class="up">
+                <div class="text">
+                  <h2>Nuestro Objetivo</h2>
+                  <p>Nuestro objetivo es brindar una herramienta que permita a los productores de campo en la Argentina combatir de forma más efectiva las plagas que afectan las cosechas de soja.</p>
+                  <p>Esta herramienta permitirá reconocer las 4 plagas principales que pueden estar afectando a la planta: las orugas defoliadoras, las chinches, las arañuelas y los trips; y dar un informe detallado al usuario sobre el tipo y donde se encuentra.</p>
+                </div>
+                <div class="cell">
+                  <img src="./assets/manos-guantes.png" alt="react logo">
+                </div>
+                <hr class="down">
+            </section>
+          
+            
+            <section class="features-section">
+              <div class="feature">
+                <div class="illustration">
+                  <img src="./assets/images.jpg" alt="Impa logo">
+                </div>
+                <div class="text-info">
+                  <p>"Agradecidos con todos aquellos que nos brindaron su apoyo"</p>
+                  <h3>Equipo HORUS</h3>
+                </div>
+              </div>
+            </section>
+          
+            <section id="team-section">
+              <div class="team-title">
+                <h1>Nuestro Equipo</h1>
+                <p>Conozcan un poco más sobre nuestro equipo y sus opiniones en base al proyecto que desarrollamos</p>
+              </div>
+              <div class="team-cards">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/lara.jpg" alt="Lara Díaz">
+                  </div>
+                  <div class="team-detail">
+                    <p>El desarrollo de la IA fue muy complicado pero eso no me detuvo. Superé los desafíos y alcancé las metas establecidas</p>
+                    <h3>Díaz, Lara</h3>
+                  </div>
+                </div>
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/mateo.jpg" alt="Mateo Kearney">
+                  </div>
+                  <div class="team-detail">
+                    <p>Si le preguntases a Chat GPT que te dé un proyecto invaluable, HORUS sería su respuesta. Propuse una idea innovadora y mi equipo no dudó en trabajar en ella para desarrollarla.</p>
+                    <h3>Kearney, Mateo</h3>
+                  </div>
+                </div>
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/nacho.jpg" alt="Juan Ignacio Torres">
+                  </div>
+                  <div class="team-detail">
+                    <p>Sin comentarios. Déjame en paz!</p>
+                    <h3> Torres, Juan Ignacio</h3>
+                  </div>
+                </div>
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/ferrante.jpg" alt="Santino Ferrante">
+                  </div>
+                  <div class="team-detail">
+                    <p>Para la gente común diseñar es complicado, para mí es muy fácil</p>
+                    <h3> Ferrante, Santino</h3>
+                  </div>
+                </div>
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/abril.jpg" alt="Abril Contreras">
+                  </div>
+                  <div class="team-detail">
+                    <p>Muy lindo.</p>
+                    <h3> Contreras, Abril</h3>
+                  </div>
+                </div>
+                <div class="team-card">
+                  <div class="team-image">
+                    <img src="./assets/marito.jpg" alt="Martin Cabrera">
+                  </div>
+                  <div class="team-detail">
+                    <p>Sin mí no serían nada</p>
+                    <h3> Cabrera, Martin</h3>
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+            <footer>
+              <div class="foot">
+                <div class="logo-container">
+                  <img src="./assets/Logo-Photoroom.png" alt="Horus logo" class="logo">
+                </div>
+                <div class="social-icons-container">
+                  <a href="https://www.instagram.com/agro_horus/" class="social-icon"></a>
+                  <a href="https://www.linkedin.com/company/agro-horus/about/" class="social-icon"></a>
+                  <a href="" class="social-icon"></a>
+                </div>
+                <ul class="footer-menu-container">
+                  <li class="menu-item">Tel +54 9 11 6939-4245</li>
+                  <li class="menu-item">agroohoruss@gmail.com</li>
+                </ul>
+                <div class="copyright">
+                  <span>HORUS Ⓒ All Rights Reserved. Designed by Kearney Mateo</span>
+                </div>
+              </div>
+            </footer>
+        </div>
+
+        <!-- Details View -->
+        <div id="details-view" class="hidden">
+            <div class="btn"><button id="to-main">Home</button></div>
+            <h1>PONTE EN CONTACTO</h1>
+            <div class="info">
+              <div class="reng1">
+                <div class="adress">
+                  <h2>Mailing Address</h2>
+                  <p>123 Anywhere St., Any City State, Country 12345</p>
+                </div>
+                <div class="mail">
+                  <h2>Email</h2>
+                  <p>agroohoruss@gmail.com</p>
+                </div>
+              </div>
+              <div class="reng2">
+                <div class="number">
+                  <h2>Número Telefónico</h2>
+                  <p>(+54 9) 11 6939 4245</p>
+                </div>
+                <div class="socials">
+                  <h2>Socials</h2>
+                  <div class="imagenes">
+                    <div class="socialimg">
+                      <a href="https://www.tiktok.com/@agro_horus?_t=8p5c2ynrSwY&_r=1">
+                      <img src="./assets/tiktok_logo.ico" alt="logo de TikTok">
+                      </a> 
+                    </div>
+                    <div class="socialimg">
+                      <a href="https://www.linkedin.com/company/agro-horus/about/">
+                      <img src="./assets/linkedin_logo.ico" alt="logo de Linkedin"> 
+                      </a>
+                    </div>
+                    <div class="socialimg">
+                      <a href="https://www.instagram.com/agro_horus/">
+                      <img src="./assets/instagram_logo.ico" alt="logo de Instagram">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>          
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
